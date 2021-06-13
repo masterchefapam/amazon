@@ -18,7 +18,7 @@ function Product({id,title,price,description,category,image}) {
                 height={200} width={200}
                 alt=""
                 objectFit="contain"/>
-            <h4 className="my-3 text-red-600">{title}</h4>
+            <h4 className="my-3 ">{title}</h4>
             <div className="flex">
                 {Array(rating)
                     .fill()
