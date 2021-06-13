@@ -3,6 +3,6 @@ module.exports = {
         domains: ["links.papareact.com", "fakestoreapi.com"],
     },
 
-    target: 'serverless',
+   
 }
 
