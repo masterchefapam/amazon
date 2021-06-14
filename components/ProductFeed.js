@@ -11,15 +11,15 @@ function ProductFeed({products}) {
                 <p>{products.title}</p>
             )) */}
 
-            {products.map(({id,title,price,description,category,image })=>(
+            {products.map((product,i)=>(
                 <Product 
-                key={id}
-                id={id}
-                title={title}
-                price={price}
-                description={description}
-                category={category}
-                image={image}
+                key={i}
+                id={product.id}
+                title={product.title}
+                price={product.price}
+                description={product.description}
+                category={product.category}
+                image={product.image}
                 />
             ))}
         </div>
